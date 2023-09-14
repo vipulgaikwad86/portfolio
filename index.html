@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="tailwind.config.js"></script> 
+    <script>src="https://cdn.tailwindcss.com"></script>
+    
+
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+       
+
+        body{
+            background-color: rgb(255, 255, 255);
+            position: relative;
+        
+          
+           
+           background-repeat: no-repeat;
+           
+        }
+        
+        h1
+        { position: absolute;
+            top: 200px;
+            left: 120px;
+            width: 350px;
+        }
+        
+        .rightnav
+        { position: absolute;
+            top: 20px;
+            right: 50px;
+            gap: 40px;
+            font-size: 30px;
+            
+            
+           
+           
+        }
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: absolute;
+    width: 220px;
+    top: 200px;
+    right: 60px;
+    color: rgb(23, 199, 239);
+
+}
+.lastnav
+{
+    position:absolute;
+    width: 100%;
+    top: 750px;
+    height: 120px;
+}
+.lastnav a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline;
+    
+    justify-content: space-around;
+    
+}
+.social-icon,.menu
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 2rem;
+    top: 10px;
+    
+    
+    
+}
+p{
+    position: absolute;
+bottom: -10px;
+   font-size: 1.2rem; 
+
+}
+
+h3{
+    position: absolute;
+    top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    left: 190px;
+}
+ 
+
+.bgimg img
+{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    right: 0px;
+}
+
+.span a{
+    position: absolute;
+    top: 450px;
+    left: 170px;
+text-decoration: none;
+border: solid rgb(8, 7, 7) 2.5px;
+color: rgb(255, 255, 255);
+background-color: rgb(28, 22, 22);
+}
+
+.bgdots
+{
+   background-image: url(./bg-dots.svg);
+    position:absolute;
+    height: 900px;
+    width: 900px;
+    left: 900px;
+
+}
+
+    </style>
+<body>
+    <div class="bgdots">
+    
+    </div>
+    <div class="nav" style="background-color: rgb(255, 255, 255);position: sticky;">
+        <div class="leftnav">
+            <img style="height: 70px;width: 90px;position: sticky;"src="https://cdn0.iconfinder.com/data/icons/fillicons-information-technology/1550/programmer_software_developer-1024.png" alt="">
+        <h3 class="bg-red-100 p-10mx-10 hover:bg-red-500 transition-all duration-300" >Hi This is Vipul</h3>
+        </div>
+    </div>
+
+        <div class="rightnav" style="display: flex;justify-content: space-around; text-decoration: none;">
+            <a style="text-decoration: none;color: rgb(0, 0, 0);"  href="new site.html">About me</a>
+            <a style="text-decoration: none;color: rgb(0, 0, 0)"href="">Cdontact</a>
+            <a style="text-decoration: none;color: rgb(0, 0, 0)" href="">Career</a>
+            <a style="text-decoration: none;color: rgb(9, 8, 8)" href="">Address</a>
+
+        </div>
+        
+        
+        <div class="bgimg">       
+
+                <img src="./bgwhite.jpg" alt="">
+    
+            </div>
+        
+    </div>
+    
+        <h1  style="font-size: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            Hi my name is <span style="color: rgb(215, 4, 0);">Vipul</span>
+        And I am a <span style="color: rgb(36, 14, 207)"><a style="text-decoration: none;" href="https://en.wikipedia.org/wiki/Front-end_web_development">Front-end <!--  -->Developer</a> </span>
+        </h1>
+        <div class="span">
+            <a href="">Download CV</a>
+        </div>
+
+        
+        <div class="lastnav" style="background-color:rgb(255, 255, 255);">
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a></li>
+              </ul>
+              <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+          
+              </ul>
+              
+              <p>&copy;2023 Vipul G | All Rights Reserved</p>
+           
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+       
+
+              
+        </div>
+</body>
+</html>
